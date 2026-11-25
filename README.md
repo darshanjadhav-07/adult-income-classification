@@ -324,4 +324,4 @@ adult-income-classification/
 
 ## 14. Repository
 
-GitHub Repository: [Add your GitHub repository link here]
+GitHub Repository: [Adult Income Classification](https://github.com/darshanjadhav-07/adult-income-classification)
