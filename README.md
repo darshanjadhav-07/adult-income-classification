@@ -218,6 +218,17 @@ Random Forest achieved the highest F1-score of 0.6828 and Matthews Correlation C
 
 It demonstrated a strong balance between precision and recall for the higher-income class and performed competitively across the evaluation metrics.
 
+### Model Performance Observation Summary
+
+| ML Model Name | Observation about model performance |
+|---|---|
+| Logistic Regression | Achieved the highest accuracy of 85.79% and ROC-AUC of 0.9115. It demonstrated strong classification performance and effective discrimination between the two income classes. Its F1-score was also close to the Random Forest model. |
+| Decision Tree | Achieved an accuracy of 82.36% and recall of 64.41%. It identified a reasonable proportion of individuals belonging to the higher-income class, but its overall predictive performance and ROC-AUC were comparatively lower. |
+| kNN | Achieved an accuracy of 83.50% and ROC-AUC of 0.8641. It demonstrated moderate classification performance but did not outperform Logistic Regression or Random Forest across the primary evaluation metrics. |
+| Naive Bayes | Achieved the highest recall of 95.66% for the higher-income class. However, its accuracy was 53.93% and precision was 33.86%, indicating that it generated a relatively high number of false-positive predictions. |
+| Random Forest (Ensemble) | Achieved the highest F1-score of 0.6828 and Matthews Correlation Coefficient of 0.5936. It demonstrated a strong balance between precision and recall for the higher-income class and performed competitively across the evaluation metrics. |
+| Overall Winner for your dataset? | Random Forest was selected as the best balanced performer based on its highest F1-score of 0.6828 and MCC of 0.5936. Logistic Regression was also highly competitive, achieving the highest accuracy of 85.79% and ROC-AUC of 0.9115. Model selection depends on the evaluation metric and the objective of the classification task. |
+
 ---
 
 ## 9. Model Performance Visualizations
